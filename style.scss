@@ -42,7 +42,14 @@ body{
                         display: inline;
                         
                     }
-
+                }
+                .waves{
+                    display: block;
+                    height: 52px;
+                    background-image: url(wave.svg);
+                    background-repeat: repeat-x;
+                    background-size: contain;
+                    background-position:center center;
                 }
             }
         
