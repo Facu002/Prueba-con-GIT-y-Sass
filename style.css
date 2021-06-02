@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #1d1d1d;
+}
+
+body .container {
+  margin: 20px;
+  background-color: black;
+}
+
+body .container .nav {
+  color: white;
+  background-color: lightgrey;
+  width: 80vw;
+}
+
+body .container .nav .navbar {
+  display: table;
+}
+
+body .container .nav .navbar ul {
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+}
+
+body .container .nav .navbar li, body .container .nav .navbar h1 {
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+}
+/*# sourceMappingURL=style.css.map */

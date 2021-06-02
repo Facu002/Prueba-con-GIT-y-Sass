@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@mixin eliminarEstilos {
+    list-style: none;
+    text-decoration: none;
+}
+
+@mixin btn {
+    border: 2px outset black;
+    
+}
+
+body{
+    background-color: rgb(29, 29, 29);
+
+        .container{
+            margin: 20px;
+            background-color: black;
+        
+            .nav{
+                color: white;
+                background-color: lightgrey;
+                width: 80vw;
+                
+                .navbar{
+                    display: table;
+                    
+                    ul{
+                        min-width: 696px;
+                        list-style: none;
+                        padding-top: 20px;
+                        
+                    }
+                    
+                    li,h1{
+                        @include eliminarEstilos();
+                        display: inline;
+                        
+                    }
+
+                }
+            }
+        
+        }
+
+}
